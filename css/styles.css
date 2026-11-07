@@ -1,0 +1,128 @@
+/* Paleta de colores: Gris plata #E0E0E0, Negro #000000 , Blanco #FFFFF */
+/* Tipografias titulo:Lexend Zetta Subtitulo:Playwrite IT Trad */
+/* estilos generales */
+* { 
+    margin: 0;
+    padding: 0; }
+body {
+    background-color: #E0E0E0;
+    color: #000000;
+}
+
+/*header*/
+/* estilo de titulos */
+
+h1 {
+    font-family: "Lexend Zetta", sans-serif;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 150;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* main */
+
+h2 {
+   font-family: "Playwrite IT Trad", cursive;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* estilos */
+
+h3,
+p {
+    font-family: 'Inter Regular', sans-serif;
+    color: #000000;
+    
+}
+
+h3 {
+    font-family: 'Inter Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* footer */
+
+/*box model*/
+
+/*flexbox*/
+/*header*/
+header {
+     display: flex;
+     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 30px;
+
+}
+
+header nav ul {
+    text-decoration: none;
+    list-style: none;     
+    display: flex;
+    gap: 30px;
+    
+/* archivo index */
+}
+.bannerindex img{
+   width: 100%;
+
+}
+.cardsindex {
+     display: flex;
+     flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+}
+.cardsindex article {
+    border: solid 1px black;
+    border-radius: 15PX;
+    padding: 15px;
+
+
+
+}
+.cardsindex article img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    }
+/* Archivo productos */
+.cardsproductos article img {
+    width: 100%;
+
+    object-fit: cover;
+    display: block;
+    }
+.cardsproductos {
+     display: flex;
+     flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+.cardsproductos article {
+    border: solid 1px black;
+    border-radius: 15PX;
+    padding: 15px;
+
+
+}
+.sectioncardsproductos h2{
+   text-align: center;
+ margin: 0 0 20px 0;
+}
+.sectioncardsproductos {
+   padding: 15px;
+
+}
